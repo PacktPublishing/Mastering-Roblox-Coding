@@ -8,8 +8,7 @@ function add(x, y)
     end
     
     -- Function logic
-    print(x)
-    print(y)
+    print(x + y)
 end
 
 add(1, "2")

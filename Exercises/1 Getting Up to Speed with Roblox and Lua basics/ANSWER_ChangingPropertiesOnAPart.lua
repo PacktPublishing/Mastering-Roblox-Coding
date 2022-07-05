@@ -1,25 +1,23 @@
 -- 3
-local workspaceService = game:GetService("Workspace")
--- 4
-local baseplate = workspaceService.Baseplate
+local baseplate = workspace.Baseplate
 
--- 5
+-- 4
 print(baseplate.Name)
 
--- 6
+-- 5
 baseplate.Name = "Cool Part"
 
--- 7 (You could have changed the print that was made for 5.)
+-- 6 (You could have changed the print that was made for 5.)
 print("The name of the baseplate is: '" .. baseplate.Name .. "'")
 
--- 8
+-- 7
 baseplate.CanCollide = false
 
--- 9
+-- 8
 baseplate.Color = Color3.fromRGB(51, 88, 130)
 
--- 10
-local terrain = workspaceService.Terrain
+-- 9
+local terrain = workspace.Terrain
 
--- 11
+-- 10
 baseplate.Parent = terrain

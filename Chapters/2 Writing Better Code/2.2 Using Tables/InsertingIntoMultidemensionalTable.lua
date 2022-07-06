@@ -6,7 +6,7 @@ function addStudent(studentName, studentClass)
       {
          name = studentName,
          class = studentClass,
-         times_late = 0
+         ["times late"] = 0
       }
    )
 end

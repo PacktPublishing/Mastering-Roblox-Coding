@@ -21,7 +21,7 @@ local students = {
     },
 }
 
-function StudentSystem.getStudentInfo(studentName)
+function StudentSystem:GetStudentInfo(studentName)
     -- Looping through students
     for _, studentInfo in ipairs(students) do
         -- Getting the current student's name that belongs to this student id.

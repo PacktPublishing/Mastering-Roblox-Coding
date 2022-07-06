@@ -7,4 +7,4 @@
 local ServerStorage = game:GetService("ServerStorage")
 local StudentSystem = require(ServerStorage.StudentSystem)
 
-print(StudentSystem.getStudentInfo("William"))
+print(StudentSystem:GetStudentInfo("William"))

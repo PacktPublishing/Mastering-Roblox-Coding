@@ -19,7 +19,7 @@ local debounceValues = {}
 
 function toggleGate(hit)
 	-- Server Check
-	local distance = ( hit.Position - gateActivation.Position ).magnitude
+	local distance = ( hit.Position - gateActivation.Position ).Magnitude
 	if distance >= 10 then
 		return
 	end

@@ -32,4 +32,5 @@ end
 
 --
 
+task.wait(1)
 playAnimation()

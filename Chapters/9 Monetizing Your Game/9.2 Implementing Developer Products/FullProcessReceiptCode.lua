@@ -49,7 +49,7 @@ function processReceipt(receiptInfo)
 		warn(err)
 		return Enum.ProductPurchaseDecision.NotProcessedYet
 	else
-		-- Rewarding succesful
+		-- Rewarding successful
 		return Enum.ProductPurchaseDecision.PurchaseGranted
 	end
 end
